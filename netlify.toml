@@ -1,0 +1,10 @@
+[build]
+  publish = "."
+
+[build.processing]
+  skip_processing = true
+
+[[headers]]
+  for = "/projects.html"
+  [headers.values]
+    Cache-Control = "no-store"

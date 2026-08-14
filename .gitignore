@@ -1,0 +1,9 @@
+# Generated distribution package
+outputs/
+
+# Local working files
+work/
+
+# Operating-system metadata
+Thumbs.db
+.DS_Store
