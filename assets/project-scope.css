@@ -1,0 +1,23 @@
+.project-scope{margin:120px 0 0;padding-top:40px;border-top:1px solid var(--line)}
+.project-scope>h2{font:600 clamp(34px,4.3vw,62px)/1.08 'Outfit','Noto Sans SC';letter-spacing:-.055em;margin:40px 0 20px}
+.project-scope>h2 em{color:#a7d8ff;font-style:normal;font-weight:400}
+.scope-lead{max-width:700px;color:#a8bacd;font-size:14px;line-height:1.85;margin:0 0 70px}
+.result-group{margin-top:58px}
+.result-group-head{display:flex;align-items:baseline;gap:24px;margin-bottom:18px}
+.result-group-head span{font-size:10px;color:#91c8f4;white-space:nowrap}
+.result-group-head h3{font-size:22px;margin:0}
+.result-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.result-card{display:flex;min-height:490px;flex-direction:column;align-items:flex-start;background:rgba(18,36,58,.7);border:1px solid var(--line);padding:0 22px 22px;transition:transform .25s,border-color .25s;overflow:hidden}
+.result-card:hover{transform:translateY(-6px);border-color:#8fc9f5}
+.result-card img{width:calc(100% + 44px);height:172px;object-fit:cover;object-position:center;align-self:center;margin:0 -22px 20px;border-bottom:1px solid var(--line);transition:transform .35s}
+.result-card:hover img{transform:scale(1.035)}
+.result-kind{font:10px 'DM Mono';color:#91c8f4;letter-spacing:.05em}
+.result-card h4{font-size:20px;line-height:1.35;margin:12px 0 10px}
+.result-card p{font-size:12px;line-height:1.8;color:#9fb2c6;margin:0}
+.result-card .result-delivery{color:#c0d4e6;margin-top:12px}
+.result-card .result-delivery strong{font-weight:600;color:#ecf6ff}
+.result-card b{font:11px 'DM Mono';font-weight:400;color:#c5e4fb;margin-top:auto;padding-top:22px}
+.result-group-split{display:grid;grid-template-columns:1fr 1fr;gap:50px}
+.result-group-split .result-card{min-height:505px}
+@media(max-width:1050px){.result-grid{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:850px){.project-scope{margin-top:80px}.result-group{margin-top:45px}.result-group-head{display:block}.result-group-head span{display:block;margin-bottom:9px}.result-grid,.result-group-split{grid-template-columns:1fr;gap:14px}.result-card,.result-group-split .result-card{min-height:0}.result-card img{height:200px}.result-card h4{margin-top:12px}}
