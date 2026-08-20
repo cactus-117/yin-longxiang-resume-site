@@ -1,0 +1,19 @@
+/* 首页个人介绍：强化姓名与职业定位的阅读层级 */
+.hero .intro {
+  font-size: clamp(20px, 1.45vw, 27px);
+  line-height: 1.7;
+  letter-spacing: .01em;
+  color: #c0cede;
+}
+
+.hero .identity-name {
+  font-size: 1.28em;
+  font-weight: 800;
+  letter-spacing: .04em;
+  color: #f2f8ff;
+  text-shadow: 0 0 24px rgba(126, 199, 255, .26);
+}
+
+@media (max-width: 850px) {
+  .hero .intro { font-size: 18px; line-height: 1.75; }
+}
